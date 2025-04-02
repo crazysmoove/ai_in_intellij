@@ -1,0 +1,448 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>AI in IntelliJ</title>
+
+        <link rel="stylesheet" href="dist/reset.css">
+        <link rel="stylesheet" href="dist/reveal.css">
+        <link rel="stylesheet" href="dist/theme/night.css" id="theme">
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="plugin/highlight/nord.css" id="highlight-theme">
+
+        <!-- custom font: -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+        <style>
+            .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, p {
+                font-family: 'Cardo', serif;
+                text-transform: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+                <section>
+                    <h3>AI in IntelliJ</h3>
+                </section>
+
+                <section>
+                    <h3>Part One</h3>
+                    <h5>Smarter (usually) auto-complete</h5>
+                </section>
+
+                <!-- smart autocomplete for TypeScript field values -->
+                <section>
+                    <img src="images/aiij/auto-fill-field-values_01.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/auto-fill-field-values_01.png" style="width: 45%;"/>
+                </section>
+
+                <!-- smart autofill variable names -->
+                <section>
+                    <img src="images/aiij/smart-variable-names.png" />
+                </section>
+
+                <!-- method body completions -->
+                <section>
+                    <img src="images/aiij/method_completion.png" />
+                </section>
+
+                <!-- English error message completion -->
+                <section>
+                    <img src="images/aiij/english_error_message_completion_01.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/english_error_message_completion_02.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/english_error_message_completion_03.png" />
+                </section>
+
+                <!-- autocomplete TypeScript constructor -->
+                <section>
+                    <img src="images/aiij/autocomplete_typescript_constructor.png" />
+                </section>
+
+                <!-- English error message completion again -->
+                <section>
+                    <img src="images/aiij/english_error_message_completion_04.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/english_error_message_completion_05.png" />
+                </section>
+
+
+                <!-- wrong code copmletion guesses -->
+                <section>
+                    <img src="images/aiij/wrong_code_completion_guess_01.png" />
+                    <p>
+                        Now you have to stop and read this to figure out it’s not what you want.
+                    </p>
+                </section>
+
+
+                <!-- plain text completion too vague -->
+                <section>
+                    <img src="images/aiij/plain_text_completion_too_vague.png" />
+                    <p>
+                        This one was cool, but it was close enough that I had to read it to see if I could use it,
+                        then throw it away, so it wasted time.
+                    </p>
+                </section>
+
+
+                <!-- plain text completion just wrong -->
+                <section>
+                    <img src="images/aiij/plain_text_completion_just_wrong.png" />
+                    <p>
+                        Just wrong
+                    </p>
+                </section>
+
+                <!-- plain text completion just wrong -->
+                <section>
+                    <img src="images/aiij/plain_text_completion_good.png" />
+                    <p>
+                        Pretty good
+                    </p>
+                </section>
+
+                <!-- plain text completion just wrong -->
+                <section>
+                    <img src="images/aiij/plain_text_looks_reasonable_but_no.png" />
+                    <p>
+                        Looks reasonable but no
+                    </p>
+                </section>
+
+                <!-- autocomplete code with error message -->
+                <section>
+                    <img src="images/aiij/autocomplete_code_with_error_message.png" />
+                </section>
+
+                <section>
+                    <h3>Part Two</h3>
+                    <h5>Asking for help &amp; &ldquo;Fix it for me&rdquo;</h5>
+                </section>
+
+                <!-- check regex flag syntax -->
+                <section>
+                    <img src="images/aiij/check_regex_flag_syntax_01.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/check_regex_flag_syntax_02.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/check_regex_flag_syntax_03.png" />
+                </section>
+
+                <!-- fix date validateion with library -->
+                <section>
+                    <img src="images/aiij/fix_date_validation_with_library_01.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/fix_date_validation_with_library_02.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/fix_date_validation_with_library_03.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/fix_date_validation_with_library_04.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/fix_date_validation_with_library_05.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/fix_date_validation_with_library_06.png" />
+                </section>
+
+                <!-- multiple tasks in one session ====================================== -->
+
+                <section>
+                    <h3>Part Three</h3>
+                    <h5>A multi-step task, start-to-finish</h5>
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-01.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-02.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-03.png" style="width: 85%;" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-03b.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-03c.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-03d.png" style="width: 30%;"/>
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-04.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-05.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-06.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-07.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-08.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-09.png" style="width: 50%;" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-10.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-11.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-12.png" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-13.png" style="width: 60%;" />
+                </section>
+
+                <section>
+                    <img src="images/aiij/multiple-tasks-one-session-14.png" />
+                </section>
+
+                <section>
+                    <h4>Going from TypeScript back to Groovy was less successful</h4>
+                </section>
+
+                <!-- misc ====================================== -->
+
+                <section>
+                    <h3>Part Four</h3>
+                    <h5>Misc</h5>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Explain this code</h4>
+                    <p>
+                        Good enough to email to another programmer.<br/><br/>
+                        Only change required was<br/>
+                        removing some obvious points.
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Explain error</h4>
+                    <p>
+                        Asked about Grails upgrade and queue integration.<br/>
+                        Answers were too generic and not helpful<br/>
+                        (“here’s how to setup Grails” or<br/>
+                        “here’s what to put in config for queue”),<br/>
+                        suggesting stuff I had already done or<br/>
+                        not pertinent or<br/>
+                        for older/other versions of libraries.
+                    </p>
+                </section>
+
+                <!-- help w/ slides ====================================== -->
+
+                <section>
+                    <h3>Part Five</h3>
+                    <h5>Help with these slides</h5>
+                </section>
+
+                <section>
+                    <img src="images/aiij/guessed_html_based_on_comment.png" />
+                    <p>
+                        Guessed reasonable HTML based on comment
+                    </p>
+                </section>
+
+                <section>
+                    <img src="images/aiij/inserts_random_broken_link.png" />
+                    <p>
+                        Inserts random broken link
+                    </p>
+                </section>
+
+                <section>
+                    <img src="images/aiij/inserted_random_cobol.png" />
+                    <p>
+                        ROBOL (Random COBOL?)
+                    </p>
+                </section>
+
+                <section>
+                    <img src="images/aiij/css_help.png" style="width: 37%;" />
+                    <p>
+                        CSS help w/o StackOverflow
+                    </p>
+                </section>
+
+                <section>
+                    <img src="images/aiij/weird_english_autocomplete.png" />
+                    <p>
+                        Weird English autocomplete
+                    </p>
+                </section>
+
+                <!-- notes ====================================== -->
+
+                <section>
+                    <h3>Part Six</h3>
+                    <h5>Notes</h5>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Originally graded these</h4>
+                    <p>
+                        A = No changes from me<br/>
+                        B = Mostly right, but needs tweaks<br/>
+                        F = Wasted time<br/>
+                        Probably a B on average
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Privacy concerns</h4>
+                    <p>
+                        Clients okay with this?<br/>
+                        Code goes to partners, but<br/>
+                        agreements in place not to train or share
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Options</h4>
+                    <p>
+                        Built-in local full-line completion<br/>
+                        JetBrains AI Assistant plugin<br/>
+                        Third-party plugins<br/>
+                        Soon: <a href="https://www.jetbrains.com/junie/">Junie (agentic)</a>
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Languages</h4>
+                    <p>
+                        TypeScript support is good<br/>
+                        Groovy is 🤷🏽‍♂️<br/>
+                        Java would be good
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Refactorings</h4>
+                    <p>
+                        Generally not helpful<br/>
+                        I'm already good at refactoring<br/>
+                        IntelliJ is already good at refactoring<br/>
+                        <i>could</i> != <i>should</i><br/>
+                        Technically correct but not necessary
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Article on MartinFowler.com</h4>
+                    <p>
+                        <a href="https://martinfowler.com/articles/exploring-gen-ai.html">https://martinfowler.com/articles/exploring-gen-ai.html</a><br/>
+                        Lack of reuse<br/>
+                        Verbose and redundant tests
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Stumbling block</h4>
+                    <p>
+                        Open-ended nature of requests<br/>
+                        Mitigated by discrete commands in context menu<br/>
+                        and other UI affordances<br/>
+                        Chat interface requires different way of thinking
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">Versus Google, StackOverflow</h4>
+                    <p>
+                        Quicker than Google/StackOverflow <i style="font-style: italic;">for some things</i>,<br/>
+                        but oftentimes not b/c of how wordy it is,<br/>
+                        depends on how focused/targeted your search is.<br/><br/>
+                        (Ironically, by Google making itself worse for searches,<br/>
+                        AI—both here and in Google—have become more useful).
+                    </p>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">AI versus thinking</h4>
+                    <img src="images/aiij/reddit_screenshot.png" style="width: 70%;"/>
+                </section>
+
+                <section>
+                    <h4 style="text-decoration: underline;">AI versus taking a walk</h4>
+                    <p>
+                        <a href="https://kmaasrud.com/blog/ai-vs-shower.html">AI vs An extra minute in the shower</a><br/>
+                        👎🏻 We should be thinking through these problems<br/>
+                        👍🏻 Saves an extra minute or two of thought<br/>
+                        👍🏻 Saves time typing (more time for thinking)<br/>
+                        Second set of eyes (pair programming) 👀
+                    </p>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="dist/reveal.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+            });
+        </script>
+    </body>
+</html>

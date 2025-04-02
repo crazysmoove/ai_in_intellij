@@ -1,0 +1,62 @@
+Outline
+- What it is
+x    - Imperative vs Declarative
+x    - Procedural (Pascal, C), OOP (Java, C#), Functional (Haskell, Scheme, ML), Logic (Prolog), Concurrent (Erlang)
+    - diagram: https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.pdf
+x    - Wikipedia on "Programming Paradigms": https://www.wikiwand.com/en/Programming_paradigm
+x        - Imperative: "code directly controls execution flow and state change"
+x            - Procedural: "procedures that call each other", COBOL/FORTRAN/C (todo: example)
+x            - Object-oriented: "objects that contain both data structure and associated behavior", Java/C#/Python (todo: example)
+x        - Declarative: "code declares properties of the desired result, but not how to compute it"
+x            - Functional: "a desired result is declared as the value of a series of function evaluations", LISP/Haskell/F#  (todo: example)
+x            - Logic: "a desired result is declared as the answer to a question about a system of facts and rules", Prolog (todo: example)
+x            - Reactive: "a desired result is declared with data streams and the propagation of change", ? (todo: example)
+    - Wikipedia on "Functional Programming": https://www.wikiwand.com/en/Functional_programming
+        - applying and composing functions
+        - declarative
+        - map values to other values, don't update state
+x        - functions are "first-class citizens": assignable to variables, can be used anywhere numbers/strings/etc. can;
+x            higher-order functions take functions as args or return them
+        - different levels of purity (todo: go into these)
+        - History
+            - evolved from Church's lambda calculus (todo: show example)
+            - LISP in 1950s by John McCarthy (AI pioneer), for IBM 700/7000s at MIT
+            - John Backus in 1977 Turing Award lecture
+            - 1973 - Robin Milner w/ ML (now OCaml and Standard ML)
+            - 1970s - Scheme
+            - 1980s - Miranda and Haskell
+        - Pure functions
+            - not used? can be removed
+            - referential transparency/idempotence; memoization
+            - order of non-dependent doesn't matter; can be reversed/optimized or parallelized; thread-safe
+            - Fortran95 and C++11 let the programmer mark a function as pure
+        - Example of imperative vs functional: https://www.wikiwand.com/en/Functional_programming#Imperative_vs._functional_programming
+
+- Example in JS
+    - syntax examples
+    - change from function() to ()=> syntax
+    - function literal (like numeric, string, object literal)
+    - lambda/closure
+    - setTimeout() example
+    - create Wordle clone (or Wordle solver) using procedural, then refactor to functional
+    - apply() and bind()
+    - show non-JS examples of select tasks
+    - reorder examples
+- JS array functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+    - "Never write another FOR loop again!"
+    - external vs internal loops
+    - every(), filter(), find(), findIndex(), findLast(), findLastIndex(), flatMap(), forEach(), (todo: group these)
+      map(), reduce(), reduceRight(), some(), sort()/toSorted() (todo: show examples)
+- Lodash array functions:
+    - and lodash/fp (https://github.com/lodash/lodash/wiki/FP-Guide)
+    - dropWhile(), dropRightWhile(), takeWhile(), takeRightWhile()
+    - countBy(), forEachRight(), groupBy(), keyBy(), partition()
+- Advanced: currying/partial application, memoize, etc.
+- other JS functions besides array stuff?
+- your own stuff: benchmarking, logging, etc.
+- map/reduce, F# pipe operator, monads and railroad diagrams
+- function composition (see Groovy book)
+- examples in Java, C#, Groovy (show examples from CWDkids, VPIA code bases)
+- work up to Haskell? https://learnxinyminutes.com/docs/haskell/
+- parallel jobs in groovy (nwcs cycle) and js (Promise.all fetches)
+- methods on "Function" (apply, curry?, etc.)
